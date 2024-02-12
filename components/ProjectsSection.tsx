@@ -1,34 +1,35 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Personality prediction using sentiment analysis.",
     description:
       "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
+    image: "/pp.png",
+    github:
+      "https://github.com/nishchintmakode/personality_prediction_with_sentiment_analysis",
     link: "https://thankfulthoughts.io/",
   },
   {
-    name: "PlatoIO",
+    name: "Lung disease detection using CNN.",
     description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
+    image: "/ldd.png",
+    github: "https://github.com/nishchintmakode/lung_disease_detection_cnn",
     link: "https://platoio.com/register",
   },
   {
-    name: "Kator Family Photos",
+    name: "Speech Emotion Recognition using MLPClassifier.",
     description:
       "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
+    image: "/ser.png",
+    github: "https://github.com/nishchintmakode/speech_emotion_recognition",
     link: "https://katorfamilyphotos.com/",
   },
-]
+];
 
 const ProjectsSection = () => {
   return (
@@ -78,12 +79,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;

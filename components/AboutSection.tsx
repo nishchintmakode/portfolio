@@ -38,9 +38,10 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from University if Birmingham, UK in 2023 with a MSc
+              in Advanced Computer Science and from Nagpur University, India in
+              2022 with a BE in Computer Engineering and have been working in
+              the field ever since.
             </p>
             <br />
             <p>

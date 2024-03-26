@@ -8,26 +8,27 @@ const projects = [
   {
     name: "Personality prediction using sentiment analysis.",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
+      "Sentiment-based personality profiling, using CNN and LSTM models to predict Big Five traits.",
     image: "/pp.png",
     github:
       "https://github.com/nishchintmakode/personality_prediction_with_sentiment_analysis",
-    link: "https://thankfulthoughts.io/",
+    // link: "",
   },
   {
     name: "Lung disease detection using CNN.",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
+    description:
+      "Deep learning model, based on convolutional neural networks (CNNs), to classify lung diseases from X-ray images.",
     image: "/ldd.png",
     github: "https://github.com/nishchintmakode/lung_disease_detection_cnn",
-    link: "https://platoio.com/register",
+    // link: "",
   },
   {
     name: "Speech Emotion Recognition using MLPClassifier.",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
+      "Multilayer Perceptron (MLP) classification model to detect emotions from human speech.",
     image: "/ser.png",
     github: "https://github.com/nishchintmakode/speech_emotion_recognition",
-    link: "https://katorfamilyphotos.com/",
+    // link: "",
   },
 ];
 
@@ -46,7 +47,7 @@ const ProjectsSection = () => {
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className=" md:w-1/2">
-                    <Link href={project.link}>
+                    <Link href={project.github}>
                       <Image
                         src={project.image}
                         alt=""
@@ -68,12 +69,12 @@ const ProjectsSection = () => {
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
-                      <Link href={project.link} target="_blank">
+                      {/* <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>

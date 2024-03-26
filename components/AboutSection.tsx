@@ -48,7 +48,7 @@ const AboutSection = () => {
               Continuously seeking new experiences, I thrive on keeping myself
               engaged and learning. I firmly believe in the principle of
               perpetual growth. Fueled by my passion for technology, I
-              constantly strive to push the limits of what's possible.
+              constantly strive to push the limits of what&#39;s possible.
             </p>
             <br />
             <p>

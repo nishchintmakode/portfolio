@@ -30,25 +30,25 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Nishchint and I am a{" "}
+              Hello, I'm Nishchint, a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Birmingham, UK.
+              <span className="font-bold">{" results-driven"}</span> software
+              engineer based in Birmingham, UK.
             </p>
             <br />
             <p>
-              I graduated from University if Birmingham, UK in 2023 with a MSc
-              in Advanced Computer Science and from Nagpur University, India in
-              2022 with a BE in Computer Engineering and have been working in
-              the field ever since.
+              I earned my MSc in Advanced Computer Science from the University
+              of Birmingham, UK, in 2023, and a BE in Computer Engineering from
+              Nagpur University, India, in 2022, laying a solid foundation for
+              my career in software engineering.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              Continuously seeking new experiences, I thrive on keeping myself
+              engaged and learning. I firmly believe in the principle of
+              perpetual growth. Fueled by my passion for technology, I
+              constantly strive to push the limits of what's possible.
             </p>
             <br />
             <p>
